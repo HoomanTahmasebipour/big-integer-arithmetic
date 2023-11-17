@@ -53,3 +53,15 @@ Notes:
     - Caching and Memoization by storing the results of expensive function calls and reusing
       them when the same inputs again, which reduces the number of calculations and further improves
       efficiency.
+
+## Files in application
+- Dockerfile: Instructions for building the docker container necessary to run this software application
+- run_dockerized_solution.sh: Shell script to automate the build and run commands for the docker container
+- main.cpp: Runs the unit tests and spins up comand-line application ready to solve the numerical problem given operator input
+- BigInt.cpp: Implementation of BigInt class, which enables arithmetic on very large numbers
+- BigInt.hpp: Definition of BigInt class
+- BigIntTest.cpp: Unit tests for BigInt class methods
+- BigIntArithmeticApp.cpp: Implementation of BigIntArithmeticApp class, which is the wrapper class containing the command-line application for task 2
+- BigIntArithmeticApp.hpp: Definition of BigIntArithmeticApp class
+- BigIntArithmeticAppTest.cpp: Unit tests for BigIntArithmeticApp class methods
+- doctest.h: Header file for the Doctest unit testing framework
